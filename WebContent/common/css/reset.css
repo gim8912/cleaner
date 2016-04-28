@@ -1,0 +1,58 @@
+@CHARSET "UTF-8";
+/* 모든 객체에 각각 적용 */
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	width:100%;
+	height:100%;
+	font-size:15px;
+}
+body, h1, h2, h3, h4, input, button {
+    font-family: 'Nanum', dotum, Helvetica, sans-serif;
+    color: #999;
+}
+a {	text-decoration: none;
+	color : #666;
+}
+a:hover  {
+    text-decoration: none;
+    color:#ffffff;
+}
+li{
+	list-style:none;
+}
+ul {	list-style-type: none;
+color : #333;}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+table caption {display:none;}
+
+.wrap {
+	width: 100%;
+/* 	overflow:hidden; */
+}
+
+/* 타이틀 메뉴바 설정*/
+.title_menu{
+
+}
+/* 타이틀 메뉴바 하이퍼링크*/
+.title_menu a{
+	color:#ffffff;
+	font-weight:bold;
+}
+.title_menu a:hover{
+	color:#ffffff;
+	text-decoration:underline;
+	line-height: normal;
+	font-weight:bold;	
+	
+}
+/* 타이틀 메뉴바 설정*/
